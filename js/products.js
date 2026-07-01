@@ -57,7 +57,7 @@ const products = [
     badge: 'Trio Set 🎁',
     badgeClass: 'sale',
     image: 'Pics/1.jpeg',
-    price: 799,
+    price: 899,
     oldPrice: 1599,
     reviews: 21,
     shortDesc: 'Our three most-loved bestsellers — Oud Ashiq, Gucci & Havoc— curated together in a luxurious gift box.',
