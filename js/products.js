@@ -40,7 +40,7 @@ const products = [
     badge: 'New ✨',
     badgeClass: 'new',
     image: 'Pics/shamsa-special.jpeg',
-    price: 450,
+    price: 350,
     oldPrice: null,
     reviews: 29,
     shortDesc: 'A refined, crystal-clear attar with crisp green freshness and a powdery soft dry-down.',
