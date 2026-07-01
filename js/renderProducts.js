@@ -51,7 +51,7 @@ function renderProducts(containerId, productList) {
               <div class="variant-selector">
                 <button class="var-btn active" data-size="3ml" onclick="changeVariant(this, 0)">3ml</button>
                 <button class="var-btn" data-size="6ml" onclick="changeVariant(this, 300)">6ml</button>
-                <button class="var-btn" data-size="9ml" onclick="changeVariant(this, 600)">9ml</button>
+                <button class="var-btn" data-size="12ml"onclick="changeVariant(this, 600)">12ml</button>
               </div>
               <span class="variant-price">${priceText} ${oldPriceHtml}</span>
             </div>
@@ -259,7 +259,7 @@ function addToCart(btn, image) {
   let basePrice = parseInt(pcard.dataset.baseprice);
   let price = basePrice;
   if(selectedSize === '6ml') price += 300;
-  if(selectedSize === '9ml') price += 600;
+  if(selectedSize === '12ml') price += 600;
 
   const existing = cart.find(item => item.name === productName && item.size === selectedSize);
   if(existing) {
